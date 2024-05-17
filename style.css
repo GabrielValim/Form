@@ -1,0 +1,64 @@
+.principal__formulario {
+    margin: 10em auto;
+    width: 30vw;
+}
+
+.formulario__campo {
+    margin-bottom: 2em;
+}
+
+.campo__etiqueta {
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.campo__escrita {
+    display: block;
+    border: 2px solid #00008b;
+    border-radius: 20px;
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+
+}
+
+.campo__escrita--menor {
+    width: 50%;
+}
+
+
+.mensagem-erro {
+    color: red;
+}
+
+.formulario__botao {
+    background: #00008b;
+    margin: 2em auto;
+    display: block;
+    border: none;
+    padding: 1em 4em;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff
+}
+
+
+@media screen and (max-width: 900px) {
+    .formulario {
+        width: 70%;
+    }
+
+    .formulario__etapas {
+        width: 100%;
+    }
+
+    .formulario__texto {
+        margin: 0;
+    }
+
+    .container {
+        margin: 2em;
+    }
+}
